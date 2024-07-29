@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html,
@@ -11,5 +12,29 @@ body {
 }
 
 body {
-  background-color: #111;
+  overflow-x: hidden;
+}
+
+#page1 {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+#page2 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(190, 220, 229);
+}
+
+#page3 {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+#page2 h1 {
+  font-weight: 600;
+  font-size: 40vw;
+  text-transform: uppercase;
 }
