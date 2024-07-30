@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cursor {
+  height: 90px;
+  width: 90px;
+  background-color: white;
+  border-radius: 50%;
+  position: fixed;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 9;
+}
+
+#image {
+  height: 30vw;
+  width: 60vw;
+  position: relative;
+}
+
+#image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#overlay {
+  background-color: crimson;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: transparent;
+  z-index: 10;
+}
