@@ -14,10 +14,12 @@ main {
   height: 300px;
   width: 300px;
   border-radius: 10px;
+  margin: 20px;
   background: linear-gradient(to right bottom, rgb(230, 79, 109), crimson);
 }
 
 .circle {
+  margin: 20px;
   height: 300px;
   width: 300px;
   border-radius: 50%;
